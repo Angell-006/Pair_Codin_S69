@@ -1,0 +1,5 @@
+def printNum(self,n):
+    if n==0:
+        return
+    self.printNum(n-1)
+    print(n)
