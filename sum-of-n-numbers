@@ -1,0 +1,5 @@
+class Solution:
+    def sumOfFirstN(self, N: int) -> int:
+        if N == 0:
+            return 0
+        return N + self.sumOfFirstN(N - 1)
